@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+    <link rel="stylesheet" href="../Recipe app/style.css">
+    <script src="./recipes.js" defer></script>
+    
+</head>
+<body>
+    <header>
+        <h1>Recipe App</h1>
+        <div id="search-form-container">
+           <input 
+              id="searchInput"
+              type="text" 
+              placeholder="seacrch for recipe ..."
+              />
+              <button id="searchBtn">Search</button>
+        </div>
+    </header>
+    <main>
+        <section id="recipeResult">
+            <h2 id="search-result-heading">Search Result</h2>
+            <div id="list-container">
+                <ul id="recipe-list"></ul>
+            </div>
+        </section>
+        <section id="recipeDetail">
+            <h2>Recipe Detail</h2>
+            <div id="recipeDetailsContainer"></div>
+        </section>
+    </main>
+</body>
+</html>
